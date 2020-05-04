@@ -11,7 +11,8 @@
         "create": "npm run build && npm run test",
         "build": "tsc -p .",
         "test": "npm i -g && pizza",
-        "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+        "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
+        "talk": "echo talking"
     },
     "author": "",
     "license": "ISC",
