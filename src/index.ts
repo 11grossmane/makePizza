@@ -4,6 +4,7 @@ import clear = require('clear')
 import figlet = require('figlet')
 import path = require('path')
 import program from 'commander'
+import { gimme } from 'gimme-state'
 
 clear()
 console.log(
